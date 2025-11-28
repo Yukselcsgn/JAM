@@ -1,0 +1,17 @@
+.gradle
+/build
+/.idea
+/.vscode
+/.DS_Store
+/*.iml
+/out
+/logs
+/.settings
+/.classpath
+/.project
+/.factorypath
+
+
+
+/info
+/local_scripts

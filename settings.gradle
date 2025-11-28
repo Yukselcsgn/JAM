@@ -1,0 +1,11 @@
+﻿rootProject.name = "jam"
+
+include(
+    "auth-service",
+    "user-service",
+    "post-service",
+    "media-service",
+    "notification-service",
+    "chat-service",
+    "gateway-service"
+)

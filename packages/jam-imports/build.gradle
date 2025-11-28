@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // implementation project(':packages:jam-core')  // uncomment and adjust if cross-module deps required
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.0'
+}
+
+test {
+    useJUnitPlatform()
+}
